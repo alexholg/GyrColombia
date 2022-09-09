@@ -1,0 +1,55 @@
+#pluginAppObj_5_30 {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Container dimensions */
+#pluginAppObj_5_30 .container {
+    position: relative;
+    max-width: 100%;
+    height: 0;
+    width: 2560px;
+    padding-top: 56.25%;
+}
+
+@media screen and (min-width: 2560px) {
+    #pluginAppObj_5_30 .container.fullWidth {
+        width: 100%;
+        padding-top: 1440px;
+    }
+}
+
+#pluginAppObj_5_30 .container .map_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+/* Error in UI Preview */
+#pluginAppObj_5_30 .error_post_container{
+    width: 99%;
+}
+
+#pluginAppObj_5_30 .error_post_thumb img {
+    float: left;
+    clear:left;
+    width:16px;
+    height:16px;
+}
+
+#pluginAppObj_5_30 .error_post_content {
+    margin-left: 22px;
+}
+
+#pluginAppObj_5_30 iframe.error_post_content {
+    margin-left: 14px;
+}
+
+#pluginAppObj_5_30 .p_error_ui{
+    font-family: "Segoe UI";
+    font-size: 9pt;
+    line-height: 1.8;
+}
